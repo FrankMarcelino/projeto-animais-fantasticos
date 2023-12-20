@@ -76,7 +76,7 @@ initScrollSuave()
 function initAnimacaoScroll() {
     const section = document.querySelectorAll('.js-scroll')
     if (section) {
-        const pontoAnimação = window.innerHeight * 0.8
+        const pontoAnimação = window.innerHeight * 0.6
     
         function animaScroll() {
             section.forEach((elemento) => {
